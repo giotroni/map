@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>passAPPort</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+
+    <script type="text/javascript" src="phonegap.js"></script>
+
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBH7uaEdJNrfDU4RHjgtPg971Fm8pHzZ3o">
+    </script>
+
+    <script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+</head>
+
+<body>
+
+    <div data-role="page" id="page-mappa" >
+        <div data-role="header">
+            <h2>Mappa</h2>
+	    <a href="#" data-rel="close" class="ui-btn ui-corner-all ui-shadow ui-mini ui-btn-inline ui-icon-delete ui-btn-icon-right ui-btn-right">Close</a>
+        </div>
+        <div role="main" class="ui-content" id="content-home">
+	    <div id="map-canvas">
+		<!-- map loads here... -->
+	    </div>
+	</div>
+    </div><!-- /page-mappa -->
+
+</body>
+</html>
