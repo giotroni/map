@@ -18,7 +18,7 @@ var app = {
     var lat = position.coords.latitude;
     var lng = position.coords.longitude;
     var latlng = new google.maps.LatLng( lat, lng);
-    
+    alert("Lat: " + lat + " lng: " + lng);
     var mapOptions = {
       center: latlng,
       zoom: 16,
